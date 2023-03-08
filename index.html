@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Hangman</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="game-info d-flex align-items-center">
+            <div class="logo d-flex align-items-center">
+                <i class="fa-regular fa-futbol"></i>
+                <div class="game-name">Football Hangman</div>
+            </div>
+            <div class="category">
+                Word From: <span class="text-capitalize fw-bold"></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row d-flex flex-md-row flex-column">
+            <div class="hangman-draw">
+                <div class="the-draw position-relative m-auto">
+                    <div class="stand position-absolute start-50 h-100"></div>
+                    <div class="hang"></div>
+                    <div class="rope rounded-circle position-absolute"></div>
+                    <div class="man">
+                        <div class="head rounded-circle position-absolute"></div>
+                        <div class="body position-absolute"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters text-center"></div>
+        </div>
+        <hr>
+        <div class="letters-guess d-flex justify-content-center"></div>
+        <div class="about">
+            <p>Football Hangman is a simple footballer name guessing game. Players try to figure out an unknown footballer name by guessing letters. If too many letters which do not appear in the footballer name are guessed, the player is hanged (and loses).</p>
+        </div>
+    </div>
+    <footer>
+        <p class="copyright">Made With &lt;3 By Mohamed Yasser</p>
+    </footer>
+    <audio id="success" src="assets/succcess.mp3" preload="auto"></audio>
+    <audio id="fail" src="assets/fail.mp3" preload="auto"></audio>
+    <audio id="gameover" src="assets/gameover.mp3" preload="auto"></audio>
+    <audio id="win" src="assets/win.mp3" preload="auto"></audio>
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
