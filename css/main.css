@@ -127,27 +127,13 @@ hr{
     background-color: #222;
     top: 225px;
 }
-.hangman-draw.wrong-1 .the-draw{
-    display: block;
-}
-.hangman-draw.wrong-2 .stand{
-    display: block;
-}
-.hangman-draw.wrong-3 .hang{
-    display: block;
-}
-.hangman-draw.wrong-4 .rope{
-    display: block;
-}
-.hangman-draw.wrong-5 .head{
-    display: block;
-}
-.hangman-draw.wrong-6 .body{
-    display: block;
-}
-.hangman-draw.wrong-7 .hands{
-    display: block;
-}
+.hangman-draw.wrong-1 .the-draw,
+.hangman-draw.wrong-2 .stand,
+.hangman-draw.wrong-3 .hang,
+.hangman-draw.wrong-4 .rope,
+.hangman-draw.wrong-5 .head,
+.hangman-draw.wrong-6 .body,
+.hangman-draw.wrong-7 .hands,
 .hangman-draw.wrong-8 .legs{
     display: block;
 }
